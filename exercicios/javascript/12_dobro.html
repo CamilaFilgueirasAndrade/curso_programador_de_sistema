@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>12_dobro</title>
+   <script type="text/javascript"src ="lib/dobro.js"></script>
+
+  </head>
+<body>
+<h1>Dobro de um número</h1>
+</body>
+<script type="text/javascript">
+	//Declaração de variável
+	var a, dobro, mensagem;
+
+	//Entrada de dados
+	a = Number(prompt("Digite o valor de a:"));
+    
+    //Processamento de dados
+	 //Chamando a função dobroNumero e atribuindo o valor para a variável dobro.
+    dobro = dobroNumero(a);
+    mensagem = `O dobro de ${a} é igual a ${dobro}.`;
+    //Saída de dados
+    document.write(mensagem);
+
+
+    
+</script>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>03_soma</title>
+  <script type="text/javascript"src ="lib/soma.js"></script>
+</head>
+<body>
+<h1>Soma de dois números</h1>
+<script type="text/javascript">
+   //Declaração de variável
+  let n1, n2, total, mensagem;
+
+  //Entrada de dados
+  n1 = Number(prompt("Digite o primeiro número:"));
+  n2 = Number(prompt("Digite o segundo número:"));
+
+  //Processamento de dados
+  total = soma(n1, n2);
+
+  
+  
+  mensagem = `A soma de ${n1} e ${n2} é igual a ${total}`;
+
+   document.write(mensagem);
+
+</script>
+</body>
+
+</html>
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nome e sobrenome</title>
+	<script type="text/javascript"src ="lib/nomes_completos.js"></script>
+<body>
+<h1>Qual o seu nome?</h1>
+</body>
+<script type="text/javascript">
+	//Declaração de variáveis
+	var nome, sobrenome, mensagem;
+
+	//Entrada de dados
+	nome = prompt("Qual é o seu nome?");
+	sobrenome = prompt("Qual é o seu sobrenome?");
+
+	//Processamento de dados
+	mensagem =  `Olá,   ${nome}  ${sobrenome}.` ;
+
+	// Saída de dados
+    document.write(mensagem);
+
+
+</script>
+</html>
